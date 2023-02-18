@@ -148,5 +148,4 @@ dist
 # End of https://www.toptal.com/developers/gitignore/api/node
 
 # Ignore Jetbrains config
-package-lock.json
 .idea
