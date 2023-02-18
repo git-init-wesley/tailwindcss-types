@@ -1,5 +1,7 @@
 # Installation
 
+>`npm install --save tailwindcss-types`
+> 
 > `npm install --save-dev tailwindcss-types`
 
 # Summary
@@ -13,7 +15,7 @@ Files were exported to
 
 ### Additional Details
 
-* Last updated: none
+* Last updated: 18 Feb 2023 11:10 (UTC)
 * Dependencies: none
 * Global values: none
 
