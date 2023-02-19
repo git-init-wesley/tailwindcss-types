@@ -2,20 +2,7 @@
 
 export * from './tailwind-filters-blur-types'
 export * from './tailwind-filters-brightness-types'
-
-/**
- * @group Filters
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/contrast)
- * @since Tailwind v3.2.7
- */
-export type Contrast =
-    'contrast-0'
-    | 'contrast-50'
-    | 'contrast-75'
-    | 'contrast-100'
-    | 'contrast-125'
-    | 'contrast-150'
-    | 'contrast-200'
+export * from './tailwind-filters-contrast-types'
 
 /**
  * @group Filters
