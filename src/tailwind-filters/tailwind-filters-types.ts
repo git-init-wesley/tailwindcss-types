@@ -3,70 +3,13 @@
 export * from './tailwind-filters-blur-types'
 export * from './tailwind-filters-brightness-types'
 export * from './tailwind-filters-contrast-types'
+export * from './tailwind-filters-drop-shadow-types'
+export * from './tailwind-filters-grayscale-types'
+export * from './tailwind-filters-hue-rotate-types'
+export * from './tailwind-filters-invert-types'
+export * from './tailwind-filters-saturate-types'
+export * from './tailwind-filters-sepia-types'
 
-/**
- * @group Filters
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/drop-shadow)
- * @since Tailwind v3.2.7
- */
-export type DropShadow =
-    'drop-shadow-sm'
-    | 'drop-shadow'
-    | 'drop-shadow-md'
-    | 'drop-shadow-lg'
-    | 'drop-shadow-xl'
-    | 'drop-shadow-2xl'
-    | 'drop-shadow-none'
-
-/**
- * @group Filters
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/grayscale)
- * @since Tailwind v3.2.7
- */
-export type Grayscale = 'grayscale-0' | 'grayscale'
-
-/**
- * @group Filters
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/hue-rotate)
- * @since Tailwind v3.2.7
- */
-export type HueRotate =
-    'hue-rotate-0'
-    | 'hue-rotate-15'
-    | 'hue-rotate-30'
-    | 'hue-rotate-60'
-    | 'hue-rotate-90'
-    | 'hue-rotate-180'
-
-/**
- * @group Filters
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/invert)
- * @since Tailwind v3.2.7
- */
-export type Invert =
-    'invert-0'
-    | 'invert'
-
-/**
- * @group Filters
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/saturate)
- * @since Tailwind v3.2.7
- */
-export type Saturate =
-    'saturate-0'
-    | 'saturate-50'
-    | 'saturate-100'
-    | 'saturate-150'
-    | 'saturate-200'
-
-/**
- * @group Filters
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/sepia)
- * @since Tailwind v3.2.7
- */
-export type Sepia =
-    'sepia-0'
-    | 'sepia'
 
 /**
  * @group Filters
