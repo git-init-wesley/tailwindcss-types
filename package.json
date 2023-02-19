@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-types",
-  "version": "3.2.7-b.190220230620",
+  "version": "3.2.7-b.190220230710",
   "description": "Implement all types of tailwindcss. Refer to the Wiki for more information. You don't need to install it to use tailwindcss.",
   "keywords": [
     "tailwind",
