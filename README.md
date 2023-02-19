@@ -1,12 +1,23 @@
 # Installation
 
->`npm install --save tailwindcss-types`
-> 
+> `npm install --save tailwindcss-types`
+>
 > `npm install --save-dev tailwindcss-types`
 
 # Summary
 
 This package contains type definitions for `tailwindcss` (https://tailwindcss.com).
+
+# Links
+
+Refer to [Wiki](https://github.com/git-init-wesley/tailwindcss-types/wiki) -
+*[https://github.com/git-init-wesley/tailwindcss-types/wiki](https://github.com/git-init-wesley/tailwindcss-types/wiki)*
+
+Refer to [Typedoc](https://git-init-wesley.github.io/tailwindcss-types/docsi) -
+*[https://git-init-wesley.github.io/tailwindcss-types/docs](https://git-init-wesley.github.io/tailwindcss-types/docs)*
+
+Request [Issue](https://github.com/git-init-wesley/tailwindcss-types/issues)  -
+*[https://github.com/git-init-wesley/tailwindcss-types/issues](https://github.com/git-init-wesley/tailwindcss-types/issues)*
 
 # Details
 
@@ -15,7 +26,7 @@ Files were exported to
 
 ### Additional Details
 
-* Last updated: 18 Feb 2023 11:10 (UTC)
+* Last updated: 19 Feb 2023 04:20 (UTC)
 * Dependencies: none
 * Global values: none
 

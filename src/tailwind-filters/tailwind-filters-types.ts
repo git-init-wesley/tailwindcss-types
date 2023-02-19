@@ -1,37 +1,10 @@
 // noinspection JSUnusedGlobalSymbols
 
-/**
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/blur)
- * @since Tailwind v3.2.7
- */
-export type Blur =
-    'blur-none'
-    | 'blur-sm'
-    | 'blur'
-    | 'blur-md'
-    | 'blur-lg'
-    | 'blur-xl'
-    | 'blur-2xl'
-    | 'blur-3xl'
+export * from './tailwind-filters-blur-types'
+export * from './tailwind-filters-brightness-types'
 
 /**
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/brightness)
- * @since Tailwind v3.2.7
- */
-export type Brightness =
-    'brightness-0'
-    | 'brightness-50'
-    | 'brightness-75'
-    | 'brightness-90'
-    | 'brightness-95'
-    | 'brightness-100'
-    | 'brightness-105'
-    | 'brightness-110'
-    | 'brightness-125'
-    | 'brightness-150'
-    | 'brightness-200'
-
-/**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/contrast)
  * @since Tailwind v3.2.7
  */
@@ -45,6 +18,7 @@ export type Contrast =
     | 'contrast-200'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/drop-shadow)
  * @since Tailwind v3.2.7
  */
@@ -58,12 +32,14 @@ export type DropShadow =
     | 'drop-shadow-none'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/grayscale)
  * @since Tailwind v3.2.7
  */
 export type Grayscale = 'grayscale-0' | 'grayscale'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/hue-rotate)
  * @since Tailwind v3.2.7
  */
@@ -76,6 +52,7 @@ export type HueRotate =
     | 'hue-rotate-180'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/invert)
  * @since Tailwind v3.2.7
  */
@@ -84,6 +61,7 @@ export type Invert =
     | 'invert'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/saturate)
  * @since Tailwind v3.2.7
  */
@@ -95,6 +73,7 @@ export type Saturate =
     | 'saturate-200'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/sepia)
  * @since Tailwind v3.2.7
  */
@@ -103,6 +82,7 @@ export type Sepia =
     | 'sepia'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/backdrop-blur)
  * @since Tailwind v3.2.7
  */
@@ -117,6 +97,7 @@ export type BackdropBlur =
     | 'backdrop-blur-3xl'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/backdrop-brightness)
  * @since Tailwind v3.2.7
  */
@@ -134,6 +115,7 @@ export type BackdropBrightness =
     | 'backdrop-brightness-200'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/backdrop-contrast)
  * @since Tailwind v3.2.7
  */
@@ -147,6 +129,7 @@ export type BackdropContrast =
     | 'backdrop-contrast-200'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/backdrop-grayscale)
  * @since Tailwind v3.2.7
  */
@@ -155,6 +138,7 @@ export type BackdropGrayscale =
     | 'backdrop-grayscale'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/backdrop-hue-rotate)
  * @since Tailwind v3.2.7
  */
@@ -167,6 +151,7 @@ export type BackdropHueRotate =
     | 'backdrop-hue-rotate-180'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/backdrop-invert)
  * @since Tailwind v3.2.7
  */
@@ -175,6 +160,7 @@ export type BackdropInvert =
     | 'backdrop-invert'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/backdrop-opacity)
  * @since Tailwind v3.2.7
  */
@@ -196,6 +182,7 @@ export type BackdropOpacity =
     | 'backdrop-opacity-100'
 
 /**
+ * @group Filters
  * @description [tailwindcss doc's](https://tailwindcss.com/docs/backdrop-saturate)
  * @since Tailwind v3.2.7
  */
@@ -207,8 +194,14 @@ export type BackdropSaturate =
     | 'backdrop-saturate-200'
 
 /**
- * @description [tailwindcss doc's](https://tailwindcss.com/docs/backdrop-sepia)
+ * @example
+ * ```ts
+ * let value: BackdropSepia //Only tailwindcss types
+ * let value: string | BackdropSepia //Your custom tailwindcss with only tailwindcss type
+ * ```
+ * @description You can refer to the official [tailwind documentation](https://tailwindcss.com/docs/backdrop-sepia)
  * @since Tailwind v3.2.7
+ * @group Filters
  */
 export type BackdropSepia =
     'backdrop-sepia-0'

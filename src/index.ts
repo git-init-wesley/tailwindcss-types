@@ -1,1 +1,1 @@
-export * from './tailwind-filters-types'
+export * from './tailwind-filters/tailwind-filters-types'
