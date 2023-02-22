@@ -21,7 +21,7 @@ export type grayscale_0 = 'grayscale-0'
  * filter: grayscale(100%);
  * ```
  * @description You can refer to the official [tailwind documentation](https://tailwindcss.com/docs/grayscale)
- * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/grayscale-1.html)
+ * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/grayscale.html)
  * @since Tailwind v3.2.7
  */
 export type grayscale = 'grayscale'
@@ -38,4 +38,5 @@ export type grayscale = 'grayscale'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/Grayscale.html)
  * @since Tailwind v3.2.7
  */
-export type Grayscale = grayscale_0 | grayscale
+export type Grayscale =
+    grayscale_0 | grayscale

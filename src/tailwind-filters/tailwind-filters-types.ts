@@ -1,5 +1,3 @@
-// noinspection JSUnusedGlobalSymbols
-
 export * from './tailwind-filters-blur-types'
 export * from './tailwind-filters-brightness-types'
 export * from './tailwind-filters-contrast-types'

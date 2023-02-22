@@ -21,7 +21,7 @@ export type invert_0 = 'invert-0'
  * filter: invert(100%);
  * ```
  * @description You can refer to the official [tailwind documentation](https://tailwindcss.com/docs/invert)
- * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/invert-1.html)
+ * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/invert.html)
  * @since Tailwind v3.2.7
  */
 export type invert = 'invert'
@@ -38,4 +38,5 @@ export type invert = 'invert'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/Invert.html)
  * @since Tailwind v3.2.7
  */
-export type Invert = invert_0 | invert
+export type Invert =
+    invert_0 | invert

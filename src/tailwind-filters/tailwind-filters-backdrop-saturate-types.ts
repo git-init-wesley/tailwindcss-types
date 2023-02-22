@@ -78,8 +78,7 @@ export type backdrop_saturate_200 = 'backdrop-saturate-200'
  * @since Tailwind v3.2.7
  */
 export type BackdropSaturate =
-    backdrop_saturate_0
-    | backdrop_saturate_50
+    backdrop_saturate_0 | backdrop_saturate_50
     | backdrop_saturate_100
     | backdrop_saturate_150
     | backdrop_saturate_200

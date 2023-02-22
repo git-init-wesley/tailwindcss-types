@@ -38,4 +38,5 @@ export type backdrop_sepia = 'backdrop-sepia'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/BackdropSepia.html)
  * @since Tailwind v3.2.7
  */
-export type BackdropSepia = backdrop_sepia_0 | backdrop_sepia
+export type BackdropSepia =
+    backdrop_sepia_0 | backdrop_sepia

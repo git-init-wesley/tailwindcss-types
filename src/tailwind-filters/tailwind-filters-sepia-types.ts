@@ -21,7 +21,7 @@ export type sepia_0 = 'sepia-0'
  * filter: sepia(100%);
  * ```
  * @description You can refer to the official [tailwind documentation](https://tailwindcss.com/docs/sepia)
- * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/sepia-1.html)
+ * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/sepia.html)
  * @since Tailwind v3.2.7
  */
 export type sepia = 'sepia'
@@ -38,4 +38,5 @@ export type sepia = 'sepia'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/Sepia.html)
  * @since Tailwind v3.2.7
  */
-export type Sepia = sepia_0 | sepia
+export type Sepia =
+    sepia_0 | sepia

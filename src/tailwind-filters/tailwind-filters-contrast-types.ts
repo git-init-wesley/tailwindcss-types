@@ -104,8 +104,7 @@ export type contrast_200 = 'contrast-200'
  * @since Tailwind v3.2.7
  */
 export type Contrast =
-    contrast_0
-    | contrast_50
+    contrast_0 | contrast_50
     | contrast_75
     | contrast_100
     | contrast_125

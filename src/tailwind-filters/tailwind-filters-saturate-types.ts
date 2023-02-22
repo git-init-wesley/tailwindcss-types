@@ -78,8 +78,7 @@ export type saturate_200 = 'saturate-200'
  * @since Tailwind v3.2.7
  */
 export type Saturate =
-    saturate_0
-    | saturate_50
+    saturate_0 | saturate_50
     | saturate_100
     | saturate_150
     | saturate_200

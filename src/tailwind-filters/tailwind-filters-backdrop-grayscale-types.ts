@@ -38,4 +38,5 @@ export type backdrop_grayscale = 'backdrop-grayscale'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/BackdropGrayscale.html)
  * @since Tailwind v3.2.7
  */
-export type BackdropGrayscale = backdrop_grayscale_0 | backdrop_grayscale
+export type BackdropGrayscale =
+    backdrop_grayscale_0 | backdrop_grayscale

@@ -1,0 +1,5 @@
+export * from './tailwind-transitions-animation-transition-property-types'
+export * from './tailwind-transitions-animation-transition-duration-types'
+export * from './tailwind-transitions-animation-transition-timing-function-types'
+export * from './tailwind-transitions-animation-transition-delay-types'
+export * from './tailwind-transitions-animation-animation-types'

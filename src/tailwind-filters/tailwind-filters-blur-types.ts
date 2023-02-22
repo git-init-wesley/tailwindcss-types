@@ -34,7 +34,7 @@ export type blur_sm = 'blur-sm'
  * filter: blur(8px);
  * ```
  * @description You can refer to the official [tailwind documentation](https://tailwindcss.com/docs/blur)
- * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/blur-1.html)
+ * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/blur.html)
  * @since Tailwind v3.2.7
  */
 export type blur = 'blur'
@@ -117,8 +117,7 @@ export type blur_3xl = 'blur-3xl'
  * @since Tailwind v3.2.7
  */
 export type Blur =
-    blur_none
-    | blur_sm
+    blur_none | blur_sm
     | blur
     | blur_md
     | blur_lg

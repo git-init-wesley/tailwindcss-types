@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-types",
-  "version": "3.2.7-b.210220231620",
+  "version": "3.2.7-r.1",
   "description": "Implement all types of tailwindcss. Refer to the Wiki for more information. You don't need to install it to use tailwindcss.",
   "keywords": [
     "tailwind",
@@ -28,7 +28,7 @@
     "dist": "dist"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ts-node test/test.ts",
     "build": "tsc",
     "lint": "tslint -p ./tsconfig.json",
     "prepare": "npm run build",
@@ -36,6 +36,8 @@
     "doc": "npx typedoc ./src/index.ts"
   },
   "devDependencies": {
+    "jsdom": "^21.1.0",
+    "ts-node": "^10.9.1",
     "tslint": "^6.1.3",
     "typedoc": "^0.23.25",
     "typescript": "^4.9.5"

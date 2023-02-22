@@ -104,8 +104,7 @@ export type drop_shadow_none = 'drop-shadow-none'
  * @since Tailwind v3.2.7
  */
 export type DropShadow =
-    drop_shadow_sm
-    | drop_shadow
+    drop_shadow_sm | drop_shadow
     | drop_shadow_md
     | drop_shadow_lg
     | drop_shadow_xl

@@ -104,8 +104,7 @@ export type backdrop_contrast_200 = 'backdrop-contrast-200'
  * @since Tailwind v3.2.7
  */
 export type BackdropContrast =
-    backdrop_contrast_0
-    | backdrop_contrast_50
+    backdrop_contrast_0 | backdrop_contrast_50
     | backdrop_contrast_75
     | backdrop_contrast_100
     | backdrop_contrast_125
