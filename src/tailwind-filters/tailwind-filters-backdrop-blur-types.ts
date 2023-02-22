@@ -117,8 +117,7 @@ export type backdrop_blur_3xl = 'backdrop-blur-3xl'
  * @since Tailwind v3.2.7
  */
 export type BackdropBlur =
-    backdrop_blur_none
-    | backdrop_blur_sm
+    backdrop_blur_none | backdrop_blur_sm
     | backdrop_blur
     | backdrop_blur_md
     | backdrop_blur_lg

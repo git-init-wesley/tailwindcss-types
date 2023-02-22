@@ -11,7 +11,7 @@
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/backdrop_hue_rotate_0.html)
  * @since Tailwind v3.2.7
  */
-export type backdrop_hue_rotate_0 = 'backdrop_hue-rotate-0'
+export type backdrop_hue_rotate_0 = 'backdrop-hue-rotate-0'
 
 /**
  * @group Filters
@@ -24,7 +24,7 @@ export type backdrop_hue_rotate_0 = 'backdrop_hue-rotate-0'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/backdrop_hue_rotate_15.html)
  * @since Tailwind v3.2.7
  */
-export type backdrop_hue_rotate_15 = 'backdrop_hue-rotate-15'
+export type backdrop_hue_rotate_15 = 'backdrop-hue-rotate-15'
 
 /**
  * @group Filters
@@ -37,7 +37,7 @@ export type backdrop_hue_rotate_15 = 'backdrop_hue-rotate-15'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/backdrop_hue_rotate_30.html)
  * @since Tailwind v3.2.7
  */
-export type backdrop_hue_rotate_30 = 'backdrop_hue-rotate-30'
+export type backdrop_hue_rotate_30 = 'backdrop-hue-rotate-30'
 
 /**
  * @group Filters
@@ -50,7 +50,7 @@ export type backdrop_hue_rotate_30 = 'backdrop_hue-rotate-30'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/backdrop_hue_rotate_60.html)
  * @since Tailwind v3.2.7
  */
-export type backdrop_hue_rotate_60 = 'backdrop_hue-rotate-60'
+export type backdrop_hue_rotate_60 = 'backdrop-hue-rotate-60'
 
 /**
  * @group Filters
@@ -63,7 +63,7 @@ export type backdrop_hue_rotate_60 = 'backdrop_hue-rotate-60'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/backdrop_hue_rotate_90.html)
  * @since Tailwind v3.2.7
  */
-export type backdrop_hue_rotate_90 = 'backdrop_hue-rotate-90'
+export type backdrop_hue_rotate_90 = 'backdrop-hue-rotate-90'
 
 /**
  * @group Filters
@@ -76,7 +76,7 @@ export type backdrop_hue_rotate_90 = 'backdrop_hue-rotate-90'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/backdrop_hue_rotate_180.html)
  * @since Tailwind v3.2.7
  */
-export type backdrop_hue_rotate_180 = 'backdrop_hue-rotate-180'
+export type backdrop_hue_rotate_180 = 'backdrop-hue-rotate-180'
 
 /**
  * @group Filters
@@ -91,8 +91,7 @@ export type backdrop_hue_rotate_180 = 'backdrop_hue-rotate-180'
  * @since Tailwind v3.2.7
  */
 export type BackdropHueRotate =
-    backdrop_hue_rotate_0
-    | backdrop_hue_rotate_15
+    backdrop_hue_rotate_0 | backdrop_hue_rotate_15
     | backdrop_hue_rotate_30
     | backdrop_hue_rotate_60
     | backdrop_hue_rotate_90

@@ -6,7 +6,7 @@
 
 # Summary
 
-This package contains type definitions for `tailwindcss` (https://tailwindcss.com).
+This package contains **all** type definitions for `tailwindcss` (https://tailwindcss.com).
 
 # Links
 
@@ -26,7 +26,8 @@ Files were exported to
 
 ### Additional Details
 
-* Last updated: 21 Feb 2023 16:20 (UTC)
+* Version: 3.2.7 (r.1)
+* Last updated: 22 Feb 2023 00:00 (UTC)
 * Dependencies: none
 * Global values: none
 

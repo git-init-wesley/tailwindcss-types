@@ -91,8 +91,7 @@ export type hue_rotate_180 = 'hue-rotate-180'
  * @since Tailwind v3.2.7
  */
 export type HueRotate =
-    hue_rotate_0
-    | hue_rotate_15
+    hue_rotate_0 | hue_rotate_15
     | hue_rotate_30
     | hue_rotate_60
     | hue_rotate_90

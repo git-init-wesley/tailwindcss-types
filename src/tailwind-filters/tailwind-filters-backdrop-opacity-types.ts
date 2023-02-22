@@ -18,7 +18,7 @@ export type backdrop_opacity_0 = 'backdrop-opacity-0'
  * @category Backdrop Opacity
  * @css
  * ```css
- * backdrop-filter: opacity(.05);
+ * backdrop-filter: opacity(0.05);
  * ```
  * @description You can refer to the official [tailwind documentation](https://tailwindcss.com/docs/backdrop-opacity)
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/backdrop_opacity_5.html)
@@ -208,8 +208,7 @@ export type backdrop_opacity_100 = 'backdrop-opacity-100'
  * @since Tailwind v3.2.7
  */
 export type BackdropOpacity =
-    backdrop_opacity_0
-    | backdrop_opacity_5
+    backdrop_opacity_0 | backdrop_opacity_5
     | backdrop_opacity_10
     | backdrop_opacity_20
     | backdrop_opacity_25

@@ -156,8 +156,7 @@ export type brightness_200 = 'brightness-200'
  * @since Tailwind v3.2.7
  */
 export type Brightness =
-    brightness_0
-    | brightness_50
+    brightness_0 | brightness_50
     | brightness_75
     | brightness_90
     | brightness_95

@@ -38,4 +38,5 @@ export type backdrop_invert = 'backdrop-invert'
  * @description You can refer to the [typedoc](https://git-init-wesley.github.io/tailwindcss-types/docs/types/BackdropInvert.html)
  * @since Tailwind v3.2.7
  */
-export type BackdropInvert = backdrop_invert_0 | backdrop_invert
+export type BackdropInvert =
+    backdrop_invert_0 | backdrop_invert
